@@ -2,9 +2,9 @@
 
 📖 Project Description
 
-The Student Management System is a Java-based web application developed using Servlets and JDBC.
-It allows an Admin to manage student records by performing basic CRUD operations through a web interface.
-This project is created as a learning project to understand Advanced Java concepts such as Servlets, JDBC, form handling, and database connectivity without using JavaScript.
+The Student Management System is a Java-based Web Application developed using Servlets and JDBC.
+It allows an Admin to manage student records by performing CRUD operations through a web interface.
+This project is created as a learning project to understand Advanced Java concepts such as Servlets, JDBC, Form Data handling, and Database connectivity.
 
 🚀 Functionalities:
 
