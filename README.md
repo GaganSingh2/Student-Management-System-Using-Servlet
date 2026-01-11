@@ -65,48 +65,4 @@ Apache Tomcat 10+
 🔹 IDE
 
 Eclipse / STS
-
-🤖Project Structure
-
-StudentManagement
-
-│
-
-├── Webapp
-
-│   ├── AdminHome.html
-
-│   ├── AddStudent.html
-
-│   ├── ViewStudent.html
-
-│   ├── UpdateStudent.html
-
-│   ├── DeleteStudent.html
-
-│   ├── SearchStudent.html
-
-│   └── WEB-INF
-
-│       └── web.xml
-
-│
-
-└── src
-
-    └── main
-    
-        └── org
-        
-            └── ManagementPage
-            
-                ├── AddStudentServlet.java
-                
-                ├── ViewStudentServlet.java
-                
-                ├── UpdateStudentServlet.java
-                
-                ├── DeleteStudentServlet.java
-                
-                └── SearchStudentServlet.java
-
+     
