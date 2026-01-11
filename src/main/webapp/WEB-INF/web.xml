@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+  <display-name>StudentManagementSystemProject</display-name>
+  
+  <!-- =========== WELCOME PAGE ============= -->
+  <welcome-file-list>
+    <welcome-file>AdminHome.html</welcome-file>
+  </welcome-file-list>
+  
+  <!-- =========== ADD STUDENT ============= -->
+  <servlet>
+    	<servlet-name>AddStudent</servlet-name>
+    	<servlet-class>org.ManagementPages.AddStudent</servlet-class>	
+    </servlet>
+    
+    <servlet-mapping>
+    	<servlet-name>AddStudent</servlet-name>
+    	<url-pattern>/addstd</url-pattern>
+    </servlet-mapping>
+    
+    <!-- =========== VIEW STUDENT ============= -->
+  	<servlet>
+    	<servlet-name>ViewStudent</servlet-name>
+    	<servlet-class>org.ManagementPages.ViewStudent</servlet-class>	
+    </servlet>
+    
+    <servlet-mapping>
+    	<servlet-name>ViewStudent</servlet-name>
+    	<url-pattern>/viewstd</url-pattern>
+    </servlet-mapping>
+    
+    <!-- =========== UPDATE STUDENT ============= -->  
+    <servlet>
+    	<servlet-name>UpdateStudent</servlet-name>
+    	<servlet-class>org.ManagementPages.UpdateStudent</servlet-class>	
+    </servlet>
+    
+    <servlet-mapping>
+    	<servlet-name>UpdateStudent</servlet-name>
+    	<url-pattern>/updatestd</url-pattern>
+    </servlet-mapping>
+    
+    <!-- =========== DELETE STUDENT ============= --> 
+    <servlet>
+    	<servlet-name>DeleteStudent</servlet-name>
+    	<servlet-class>org.ManagementPages.DeleteStudent</servlet-class>	
+    </servlet>
+    
+    <servlet-mapping>
+    	<servlet-name>DeleteStudent</servlet-name>
+    	<url-pattern>/deletestd</url-pattern>
+    </servlet-mapping>
+    
+    <!-- =========== SEARCH STUDENT ============= -->  
+  <servlet>
+    	<servlet-name>SearchStudent</servlet-name>
+    	<servlet-class>org.ManagementPages.SearchStudent</servlet-class>	
+    </servlet>
+    
+    <servlet-mapping>
+    	<servlet-name>SearchStudent</servlet-name>
+    	<url-pattern>/searchstd</url-pattern>
+    </servlet-mapping>
+    
+    
+</web-app>

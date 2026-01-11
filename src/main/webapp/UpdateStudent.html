@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Update Page</title>
+</head>
+<body>
+	<h1 align="center">Welcome To Student Updatation Page</h1>
+	<form action="updatestd" method="post">
+	
+		<table align="center" border="5" cellpadding="10" cellspacing="10" bgcolor="lightblue" width="500">
+			<caption>Student Update Form</caption>
+			<tr>
+				<td  align="center">Roll No: </td>
+				<td  align="center"> <input type="text" name="rn" style="width: 150px; height: 30px;"> </td>
+			</tr>
+			
+			<tr>
+				<td  align="center">Course: </td>
+				<td  align="center"><select name="cr" id="course" required style="width: 150px; height: 30px;">
+    				<option value="">-- Select Course --</option>
+    				<option value="java_fullstack">Java Full Stack Development</option>
+    				<option value="python_fullstack">Python Full Stack Development</option>
+    				<option value="automation_testing">Automation Testing</option>
+    				<option value="data_science">Data Science</option>
+  					</select>
+				 </td>
+			</tr>
+			
+			<tr>
+				<td  align="center">ThroughOut: </td>
+				<td  align="center"> <input type="text" name="pr" style="width: 150px; height: 30px;"> </td>
+			</tr>
+			
+			
+			<tr>
+				<td  align="center">Placed: </td>
+				<td  align="center"> <input type="radio" name="pl" value="yes" required> Yes  
+                     <input type="radio" name="pl" value="no"> No 
+                </td>
+			</tr>
+			
+			
+			
+			<tr>	
+				<td colspan="2" align="center" > <input type="submit" value="Update" style="width: 150px; height: 40px; background-color:yellow;"> </td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
