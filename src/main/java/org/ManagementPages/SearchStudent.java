@@ -17,7 +17,7 @@ import jakarta.servlet.http.HttpServletResponse;
 public class SearchStudent extends HttpServlet{
 
 	@Override
-	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
 	{
 		int sid = Integer.parseInt(req.getParameter("rn"));
 	
@@ -84,7 +84,7 @@ public class SearchStudent extends HttpServlet{
 		    out.println("<html><body bgcolor='blue'>");
 			if(!flag) {
 				out.println("<h1>Oh Sorry!! </h1>");
-				out.println("<h3>Your Details Has Been Not Here!!</h3>");
+				out.println("<h3>Your Details Has Been Not Found!!</h3>");
 			}
 			out.println("</body></html>");
 			out.close();
